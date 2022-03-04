@@ -17,6 +17,8 @@
 		23E9B63027D2C51800DE04B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E9B60627D2C51500DE04B6 /* ContentView.swift */; };
 		23E9B63127D2C51800DE04B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23E9B60727D2C51800DE04B6 /* Assets.xcassets */; };
 		23E9B63227D2C51800DE04B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23E9B60727D2C51800DE04B6 /* Assets.xcassets */; };
+		23E9B64227D2C73F00DE04B6 /* RK4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E9B64127D2C73F00DE04B6 /* RK4.swift */; };
+		23E9B64327D2C73F00DE04B6 /* RK4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E9B64127D2C73F00DE04B6 /* RK4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		23E9B62527D2C51800DE04B6 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		23E9B62927D2C51800DE04B6 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		23E9B62B27D2C51800DE04B6 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		23E9B64127D2C73F00DE04B6 /* RK4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RK4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,7 @@
 			children = (
 				23E9B60527D2C51500DE04B6 /* Homework_4App.swift */,
 				23E9B60627D2C51500DE04B6 /* ContentView.swift */,
+				23E9B64127D2C73F00DE04B6 /* RK4.swift */,
 				23E9B60727D2C51800DE04B6 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -301,6 +305,7 @@
 			files = (
 				23E9B62F27D2C51800DE04B6 /* ContentView.swift in Sources */,
 				23E9B62D27D2C51800DE04B6 /* Homework_4App.swift in Sources */,
+				23E9B64227D2C73F00DE04B6 /* RK4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +315,7 @@
 			files = (
 				23E9B63027D2C51800DE04B6 /* ContentView.swift in Sources */,
 				23E9B62E27D2C51800DE04B6 /* Homework_4App.swift in Sources */,
+				23E9B64327D2C73F00DE04B6 /* RK4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
